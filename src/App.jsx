@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { db } from './firebase-config';
 import { addDoc, collection, getDocs, updateDoc, doc, deleteDoc } from "firebase/firestore"; 
 import { Container, TextField, Button, Card, CardContent, Typography, Grid } from '@mui/material';
+import "./App.css"
 
 function App() {
   const [users, setUsers] = useState([]);
